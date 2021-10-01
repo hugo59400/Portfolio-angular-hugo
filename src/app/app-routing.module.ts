@@ -24,6 +24,10 @@ const routes: Routes = [
   { path: 'xray', component: XrayComponent },
   { path: 'moteur', component: MoteurjeuComponent},
   { path: 'jeu_video', component: JeuvideoComponent},
+
+
+
+  
 ];
 
 @NgModule({

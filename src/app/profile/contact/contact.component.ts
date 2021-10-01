@@ -30,18 +30,18 @@ export class ContactComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  // grab all the fields and their values
+  // récupérer tous les champs et leurs valeurs
   submitForm(): void {
     // tslint:disable-next-line:triple-equals
     if (this.form.status == 'VALID' && this.honeypot.value == ''){
-      this.form.disable(); // disable form if it's valid to disable multiple submissions
+      this.form.disable(); // désactiver le formulaire s'il est valide pour désactiver les soumissions multiples
       const formData: any = new FormData();
       formData.append('name', this.form.get('name')?.value);
       formData.append('email', this.form.get('email')?.value);
       formData.append('message', this.form.get('message')?.value);
       this.isLoading = true;
       this.submitted = false;
-      // tslint:disable-next-line:max-line-length
+     
       this.http.post('https://script.google.com/macros/s/AKfycbwCgIn8E67bxAvIE4urtjvlTzDsh8R-7mhVlDyW/exec', formData).subscribe(
         (response) => {
           this.responseMessage = 'Merci pour votre message ! Je vous recontacte dès que possible !';
