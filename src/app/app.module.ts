@@ -19,9 +19,9 @@ import { TagCloudModule } from 'angular-tag-cloud-module';
 import { InterestsComponent } from './profile/interests/interests.component';
 import { ContactComponent } from './profile/contact/contact.component';
 import { AddaComponent } from './profile/projects/adda/adda.component';
-import { IslandsComponent } from './profile/projects/islands/islands.component';
-import { ThurstonComponent } from './profile/projects/thurston/thurston.component';
-import { RaymarchComponent } from './profile/projects/raymarch/raymarch.component';
+import { BtsProjetComponent } from './profile/projects/btsprojet/btsprojet.component';
+import { WindevComponent } from './profile/projects/windev/windev.component';
+import { HtmlPortfolioComponent } from './profile/projects/htmlportfolio/htmlportfolio.component';
 import { VaisseauComponent } from './profile/projects/vaisseau/vaisseau.component';
 import { PortfolioComponent } from './profile/projects/portfolio/portfolio.component';
 import { MainComponent } from './profile/main/main.component';
@@ -31,8 +31,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule} from '@angular/material/input';
-import { MasquesComponent } from './profile/projects/masques/masques.component';
-import { XrayComponent } from './profile/projects/xray/xray.component';
+import { TennisComponent } from './profile/projects/tennis/tennis.component';
+import { BestioleComponent } from './profile/projects/bestiole/bestiole.component';
 import { CvComponent } from './profile/projects/cv/cv.component';
 
 import { JeugeoComponent } from './profile/projects/jeugeo/jeugeo.component';
@@ -51,15 +51,15 @@ import { JeugeoComponent } from './profile/projects/jeugeo/jeugeo.component';
     InterestsComponent,
     ContactComponent,
     AddaComponent,
-    IslandsComponent,
-    ThurstonComponent,
-    RaymarchComponent,
+    BtsProjetComponent,
+    WindevComponent,
+    HtmlPortfolioComponent,
     VaisseauComponent,
     PortfolioComponent,
     MainComponent,
     ArticlesComponent,
-    MasquesComponent,
-    XrayComponent,
+    TennisComponent,
+    BestioleComponent,
     CvComponent,
     JeugeoComponent
   ],

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { XrayComponent } from './xray.component';
+import { HtmlPortfolioComponent } from './htmlportfolio.component';
 
-describe('XrayComponent', () => {
-  let component: XrayComponent;
-  let fixture: ComponentFixture<XrayComponent>;
+describe('HtmlPortfolioComponent', () => {
+  let component: HtmlPortfolioComponent;
+  let fixture: ComponentFixture<HtmlPortfolioComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ XrayComponent ]
+      declarations: [ HtmlPortfolioComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(XrayComponent);
+    fixture = TestBed.createComponent(HtmlPortfolioComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

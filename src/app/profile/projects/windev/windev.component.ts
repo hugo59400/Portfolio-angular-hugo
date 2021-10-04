@@ -2,10 +2,10 @@ import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-thurston',
-  templateUrl: './thurston.component.html',
-  styleUrls: ['./thurston.component.css']
+  templateUrl: './windev.component.html',
+  styleUrls: ['./windev.component.css']
 })
-export class ThurstonComponent implements OnInit{
+export class WindevComponent implements OnInit{
 
   constructor() { }
 

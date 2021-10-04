@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RaymarchComponent } from './raymarch.component';
+import { BestioleComponent } from './bestiole.component';
 
-describe('RaymarchComponent', () => {
-  let component: RaymarchComponent;
-  let fixture: ComponentFixture<RaymarchComponent>;
+describe('XrayComponent', () => {
+  let component: BestioleComponent;
+  let fixture: ComponentFixture<BestioleComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RaymarchComponent ]
+      declarations: [ BestioleComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RaymarchComponent);
+    fixture = TestBed.createComponent(BestioleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

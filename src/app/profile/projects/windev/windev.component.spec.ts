@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ThurstonComponent } from './thurston.component';
+import { WindevComponent } from './windev.component';
 
-describe('ThurstonComponent', () => {
-  let component: ThurstonComponent;
-  let fixture: ComponentFixture<ThurstonComponent>;
+describe('WindevComponent', () => {
+  let component: WindevComponent;
+  let fixture: ComponentFixture<WindevComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ThurstonComponent ]
+      declarations: [ WindevComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ThurstonComponent);
+    fixture = TestBed.createComponent(WindevComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
