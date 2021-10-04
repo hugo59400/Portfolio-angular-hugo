@@ -9,8 +9,8 @@ import {ThurstonComponent} from './profile/projects/thurston/thurston.component'
 import {VaisseauComponent} from './profile/projects/vaisseau/vaisseau.component';
 import {MasquesComponent} from './profile/projects/masques/masques.component';
 import {XrayComponent} from './profile/projects/xray/xray.component';
-import {MoteurjeuComponent} from './profile/projects/moteurjeu/moteurjeu.component';
-import {JeuvideoComponent} from './profile/projects/jeuvideo/jeuvideo.component';
+import { JeugeoComponent } from './profile/projects/jeugeo/jeugeo.component';
+import { CvComponent } from './profile/projects/cv/cv.component';
 
 const routes: Routes = [
   { path: '', component: MainComponent },
@@ -22,8 +22,8 @@ const routes: Routes = [
   { path: 'vaisseau', component: VaisseauComponent },
   { path: 'masque', component: MasquesComponent },
   { path: 'xray', component: XrayComponent },
-  { path: 'moteur', component: MoteurjeuComponent},
-  { path: 'jeu_video', component: JeuvideoComponent},
+  { path: 'cv', component: CvComponent},
+  { path: 'jeu_geo', component: JeugeoComponent},
 
 
 

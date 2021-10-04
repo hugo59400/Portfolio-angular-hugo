@@ -33,8 +33,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule} from '@angular/material/input';
 import { MasquesComponent } from './profile/projects/masques/masques.component';
 import { XrayComponent } from './profile/projects/xray/xray.component';
-import { MoteurjeuComponent } from './profile/projects/moteurjeu/moteurjeu.component';
-import { JeuvideoComponent } from './profile/projects/jeuvideo/jeuvideo.component';
+import { CvComponent } from './profile/projects/cv/cv.component';
+
+import { JeugeoComponent } from './profile/projects/jeugeo/jeugeo.component';
 
 @NgModule({
   declarations: [
@@ -59,8 +60,8 @@ import { JeuvideoComponent } from './profile/projects/jeuvideo/jeuvideo.componen
     ArticlesComponent,
     MasquesComponent,
     XrayComponent,
-    MoteurjeuComponent,
-    JeuvideoComponent
+    CvComponent,
+    JeugeoComponent
   ],
   imports: [
     BrowserModule,
