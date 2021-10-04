@@ -3,7 +3,7 @@ Hugo Coleau 's Portfolio
 
 Hello and welcome to my portfolio's git !
 
-My name is **HUgo Coleau ** and I'm the maintainer of the project.
+My name is **Hugo Coleau ** and I'm the maintainer of the project.
 
 On this repository, you'll find all the steps that leads me to the result I 
 finally obtained with my portfolio (available on this url : ....)
